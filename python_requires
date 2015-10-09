@@ -150,7 +150,10 @@ def sanitize_requirements(requirements):
         'python-setuptools-git', 'python-distribute',
         'python-pylint', 'python-hacking',
         'python-docutils', 'python-oslo.sphinx', 'python-oslosphinx',
-        'python-hacking', 'python-qpid-python')
+        'python-hacking', 'python-qpid-python',
+        'python-gabbi', 'python-requests-aws',
+        'python-tempest-lib', 'python-PyMySQL',
+        'python-elasticsearch', 'python-contextlib2')
 
     real_requires = dict()
     for k in set(d).difference(ignore_requires):
